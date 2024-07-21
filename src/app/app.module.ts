@@ -3,6 +3,7 @@ import { BrowserModule, provideClientHydration } from '@angular/platform-browser
 import { ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ReactFormComponent } from './react-form/react-form.component';
 
 @NgModule({
   
@@ -14,6 +15,9 @@ import { AppComponent } from './app.component';
   ],
   providers: [
     provideClientHydration()
+  ],
+  declarations: [
+    ReactFormComponent
   ],
 
 })
